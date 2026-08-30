@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Arkalib est une application qui permet de créer et de suivre des budgets en toute simplicité sans notion comptable avancée. Cette application est à destination des petites structures telle que des associations.
