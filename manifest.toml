@@ -40,13 +40,26 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
+    [install.language]
+    ask.en = "Choose the application language"
+    ask.fr = "Choisissez la langue de l'application"
+    type = "select"
+    choices = ["fr"]
+    default = "fr"
+
+    [install.admin]
+    type = "user"
+
+    [install.password]
+    type = "password"
+
 [resources]
 
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/BaptisteCHRPN/arkalib/archive/eddd38adfc857526dd26c575cb20377f67d9f47b.tar.gz"
-        sha256 = "fa51dddfdbf0585477ea8224bed9a974f0efb98bdcd9064f0f0c0fac2772762f"
+        url = "https://github.com/BaptisteCHRPN/arkalib/archive/18d30fce30a2b333c71ef4d12ca569a963b54b19.tar.gz"
+        sha256 = "56f10520f678b8a93e9f92c211fbf58344cced36feb258d86ef34030206d45ab"
 
         autoupdate.strategy = "latest_github_commit"
 
