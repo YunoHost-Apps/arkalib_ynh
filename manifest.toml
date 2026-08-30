@@ -7,7 +7,9 @@ name = "ARKALIB"
 description.en = "Create and track budgets without requiring advanced accounting knowledge."
 description.fr = "Créer et de suivre des budgets en toute simplicité sans notion comptable avancée."
 
-version = "1.0~ynh1"
+version = "0.1~ynh1"
+
+maintainers = []
 
 [upstream]
 license = "MIT"
