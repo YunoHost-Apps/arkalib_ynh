@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "arkalib"
 name = "ARKALIB"
-description.en = "Create and track budgets without requiring advanced accounting knowledge."
-description.fr = "Créer et de suivre des budgets en toute simplicité sans notion comptable avancée."
+description.en = "Create and track budgets without requiring advanced accounting knowledge"
+description.fr = "Créer et de suivre des budgets sans notion comptable avancée"
 
 version = "2026.09.03~ynh1"
 
@@ -13,16 +13,17 @@ maintainers = []
 
 [upstream]
 license = "MIT"
-
 code = "https://github.com/BaptisteCHRPN/arkalib"
 
 [integration]
-yunohost = ">= 12.1.17"
+yunohost = ">= 12.1.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = false
+
 ldap = false
 sso = false
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
@@ -74,14 +75,13 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = [
-        "php8.3-fpm",
-        "php8.3-cli",
-        "php8.3-pdo",
-        "php8.3-mysql",
-        "php8.3-intl",
-        "php8.3-mbstring",
-        "php8.3-xml",
-        "php8.3-fileinfo",
+        "php8.5-cli",
+        "php8.5-pdo",
+        "php8.5-mysql",
+        "php8.5-intl",
+        "php8.5-mbstring",
+        "php8.5-xml",
+        "php8.5-fileinfo",
         "mariadb-server",
     ]
 
@@ -89,4 +89,4 @@ ram.runtime = "50M"
     type = "mysql"
 
     [resources.composer]
-    version = "2.8.3"
+    version = "2.10.2"
