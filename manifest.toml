@@ -7,7 +7,7 @@ name = "ARKALIB"
 description.en = "Create and track budgets without requiring advanced accounting knowledge."
 description.fr = "Créer et de suivre des budgets en toute simplicité sans notion comptable avancée."
 
-version = "2026.10.24~ynh1"
+version = "2026.10.29~ynh1"
 
 maintainers = []
 
@@ -58,8 +58,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/BaptisteCHRPN/arkalib/archive/5c430dfb9d7e5af38ae35210b683f2f7eaf96ec9.tar.gz"
-        sha256 = "b10918f606818d4d208032ab128599fca71b4f1ee9f72e73c9b66c2f8b55a9fd"
+        url = "https://github.com/BaptisteCHRPN/arkalib/archive/84a8d384429076c6af815c21c76930ef4d7c7484.tar.gz"
+        sha256 = "5978518b46b50cd0f0dc3c80e78f933cbcc2a37f70aff6fa68d422812a9a69ac"
 
         autoupdate.strategy = "latest_github_commit"
 
